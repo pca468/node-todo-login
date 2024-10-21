@@ -63,7 +63,7 @@ const TodoPage = () => {
           <input
             type="text"
             placeholder="할일을 입력하세요"
-            onChange={(event) => setTodoValue(event.target.value)}
+            onChange={(event) => setTodoValue(event.target.value)} // 입력한 값을 실시간으로 이벤트 발생
             className="input-box"
             value={todoValue}
           />
